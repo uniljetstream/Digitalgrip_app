@@ -34,7 +34,7 @@ class _IoTLampPageState extends State<IoTLampPage> {
   bool _isLoading = false;
 
   final String _apiUrl =
-      "https://e1riqyrwkb.execute-api.ap-northeast-2.amazonaws.com/Digitalgrip/shadow-state";
+      "APIURL";
 
   final List<String> _registeredThings = [];  // List to store registered things
   final Map<String, String> _thingStatus = {}; // Map to store the status of registered things
